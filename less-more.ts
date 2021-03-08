@@ -3,7 +3,7 @@ import { randomInt } from "crypto";
 var stdin = process.openStdin()
 
 const INT = Math.floor(Math.random() * Math.floor(100))
-console.log(INT)
+//console.log(INT)
 var win = 0
 
 
@@ -22,7 +22,6 @@ var win = 0
 
         case parseInt(d) == INT:
             console.log("You win !")
-            win = 1
             break;
     }
     

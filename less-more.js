@@ -2,7 +2,7 @@
 exports.__esModule = true;
 var stdin = process.openStdin();
 var INT = Math.floor(Math.random() * Math.floor(100));
-console.log(INT);
+//console.log(INT)
 var win = 0;
 stdin.addListener("data", function (d) {
     // note:  d is an object, and when converted to a string it will
